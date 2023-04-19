@@ -1,0 +1,29 @@
+{
+  "name": "revelation",
+  "version": "1.0.0",
+  "description": "portfolio page root",
+  "type": "module",
+  "main": "database.js",
+  "scripts": {
+    "dev": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duhonfolio/revelation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duhonfolio/revelation/issues"
+  },
+  "homepage": "https://github.com/duhonfolio/revelation#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^5.0.0-beta.1",
+    "mysql2": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
