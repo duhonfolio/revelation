@@ -37,11 +37,11 @@ export async function createNote(title, contents) {
     return getNote(id)  // return the object just created using the other getNote function
 }
 
-const notes = await getNotes ()
-console.log (notes)  // result returned is an array of JS objects
+// const notes = await getNotes ()
+// console.log (notes)  // result returned is an array of JS objects
 
-const note = await getNote(2)
-console.log (note)  // result returned is the 2nd element in the array of JS objects
+// const note = await getNote(2)
+// console.log (note)  // result returned is the 2nd element in the array of JS objects
 
-const result = await createNote('test','test')   //create new
-console.log (result)
+// const result = await createNote('test','test')   //create new
+// console.log (result)
