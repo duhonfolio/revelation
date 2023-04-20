@@ -1,12 +1,13 @@
 {
   "name": "revelation",
   "version": "1.0.0",
-  "description": "portfolio page root",
+  "description": "Revelation page root",
   "type": "module",
   "main": "database.js",
-  "scripts": {
+  "scripts": {     
     "dev": "npx nodemon app.js",
-    "build": "echo 'build script executed'" 
+    "build": "echo 'build script executed'",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
