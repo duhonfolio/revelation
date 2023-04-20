@@ -7,7 +7,7 @@
   "scripts": {     
     "dev": "npx nodemon app.js",
     "build": "echo 'build script executed'",
-    "start": "npx nodemon app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
